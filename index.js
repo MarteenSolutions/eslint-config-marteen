@@ -1,5 +1,5 @@
 module.exports = {
     extends: [
-        'eslint/base'
+        './eslint/base'
     ].map(require.resolve)
 };

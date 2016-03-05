@@ -1,7 +1,7 @@
 module.exports = {
     "extends": [
         'airbnb'
-    ].map(require.resolve),
+    ],
     "ecmaFeatures": {},
     // Rules
     "rules": {
