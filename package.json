@@ -1,0 +1,25 @@
+{
+  "name": "eslint-config-marteen",
+  "version": "1.0.1",
+  "description": "Marteen solutions eslint config",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/MarteenSolutions/eslint-config-marteen.git"
+  },
+  "keywords": [
+    "eslint",
+    "airbnb"
+  ],
+  "author": "Justen Martin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MarteenSolutions/eslint-config-marteen/issues"
+  },
+  "homepage": "https://github.com/MarteenSolutions/eslint-config-marteen#readme",
+  "peerDependencies": {
+    "eslint": "^2.3.0",
+    "eslint-config-airbnb": "^6.0.2",
+    "eslint-plugin-react": "^4.1.0"
+  }
+}
