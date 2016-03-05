@@ -1,9 +1,7 @@
-{
-    "extends": "airbnb",
-    "env": {
-        "node":true
-    },
-    "parser": "babel-eslint",
+module.exports = {
+    "extends": [
+        'airbnb'
+    ].map(require.resolve),
     "ecmaFeatures": {},
     // Rules
     "rules": {
